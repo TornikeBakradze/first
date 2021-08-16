@@ -1,0 +1,148 @@
+.mainbox{
+	max-width: 1050px;
+	width: 100%;
+	height: 60px;
+	margin: 20px auto;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	flex-wrap:wrap ;
+	border-bottom: 1px solid #2E4765;
+}
+.title{
+	font-size: 28px ;
+	color: #EF4C00;
+}
+.titlebox{
+	width: 30%;
+}
+.navigationbox{
+	width: 70%;
+}
+.navigation{
+	text-transform: capitalize;
+	text-align: right;
+	padding: 0 0 0 42.5px;
+	vertical-align: middle;
+	font-size: 13px;
+	color: #2E4765;
+}
+.navigation:hover{
+	color: aqua;
+}
+.image1::before{
+	content: '';
+	display: inline-block;
+	width: 1px;
+	height: 59px;
+	background-color:  #2E4765;
+	margin: 0 42.5px 0 0 ;
+	vertical-align: -85%;
+}
+.sectionbox{
+	max-width: 850px ;
+	width: 100%;
+	margin: 30px auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.sectionbox1{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.Expression{
+	font-size: 35px;
+	color: #2E4765;
+}
+.sectionbox2{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	margin-top:20px ;
+}
+.Expression1{
+	font-size: 23px ;
+	color: #EF4C00;
+}
+.imgsection{
+	max-width: 1000px;
+	width: 100%;
+	margin: 20px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	position: relative;
+}
+.mainimg{
+	width: 1050px;
+}
+.onimg{
+	width: 327px;
+	height: 171px;
+	position: absolute;
+	top: 64px;
+	left: 0px;
+	font-size: 43px;
+	color: #FFFFFF;
+}
+.childimg{
+	position: absolute;
+	top: 256px;
+	left: 0px;
+}
+.search{
+	border-radius: 10px;
+}
+.secnavigation{
+	max-width: 1050px;
+	width: 100%;
+	margin: 20px auto;
+	display: flex;
+	justify-content: space-between;
+}
+.meal{
+	font-size: 23px;
+	color: #B30733;
+}
+.search{
+	border-radius: 370px;
+}
+.mainmealbox{
+	max-width: 1050px;
+	width: 100%;
+	margin: 20px auto;
+}
+.meallist{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.mealbox{
+	border: 1px solid black;
+	border-radius: 25px;
+	width: 327px;
+	height: 262;
+}
+.imgmeal{
+	width: 327px;
+	height: 153px;
+}
+.Reviews{
+	text-transform: capitalize;
+	color: #B30733;
+	font-size: 17px;
+	padding: 5px;
+	margin: 0 20%;
+}
+.popular::after{
+	content: '';
+	display: inline-block;
+	width: 950px;
+	height: 3px;
+	background-color: #2E4765;
+	vertical-align: middle;
+	margin-left: 20px;
+}
